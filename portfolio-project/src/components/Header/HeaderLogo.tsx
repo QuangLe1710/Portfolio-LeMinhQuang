@@ -8,6 +8,9 @@ export default function HeaderLogo() {
         width={130}
         alt="logo"
         src="/quang.png"
+        style={{
+          borderRadius : '5px'
+        }}
       />
       
       

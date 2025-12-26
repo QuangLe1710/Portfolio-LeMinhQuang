@@ -25,10 +25,15 @@ export default function HeaderOption({ label, color }: TitleProps) {
             <Title
                 level={5}
                 style={{
-                    color: isMouseHover ? 'red' : 'black',
-                    borderBottomColor : isMouseHover ? "#F73361" : "white" ,
-                    transition: 'backgroundColor 0.4s',
+                    color: isMouseHover ? 'white' : 'black',
+                    borderBottomColor: isMouseHover ? "#F73361" : "white",
+                    transition: 'all 0.3 ease', // Dùng 'all' để mượt cả màu chữ và nền
+                    backgroundColor: isMouseHover ? "#F73361" : "white",
+                    cursor: 'pointer',
+                    padding : "8px",
+                    borderRadius : "5px",
                 }}
+
             >
                 {label}
             </Title>
