@@ -17,6 +17,7 @@ export default function Header() {
             color='#FFFFFF'
             border = '1px solid #000000'
             padding='9px 12px'
+            
         />
     </header>
   )

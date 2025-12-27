@@ -15,6 +15,7 @@ interface ButtonProps {
     marginBot?:string;
     border?: string;
     padding?:string;
+    cursor?:string;
 }
 
 export default function Button({ 
@@ -32,6 +33,7 @@ export default function Button({
         margin,
         border,
         padding,
+        cursor = 'pointer'
     } : ButtonProps) {
     return (
         <>
@@ -47,8 +49,8 @@ export default function Button({
                     marginRight : marginRight,
                     marginTop : marginTop,
                     marginBottom : marginBot,
-                    padding:padding
-                    
+                    padding:padding,
+                    cursor: 'pointer',
                 }}
             >
                 {label}

@@ -10,7 +10,9 @@ export default function BoxGreetingText() {
       <Title  level={4}>Hi I am</Title>
       <Text 
       style={{
-        fontSize : '32px'
+        fontSize : '32px',
+        color : '#FD6F00',
+        fontWeight : 'bolder'
       }} 
       >
         Lê Minh Quang
